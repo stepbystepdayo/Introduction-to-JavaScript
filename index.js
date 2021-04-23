@@ -18,6 +18,7 @@ Do the following:
    HINT: no function required
 */
 
+
 let votingAge = 20;
 if (votingAge > 18) {
   // console.log("true");
@@ -125,6 +126,19 @@ function hungryDog(dogWeight) {
   }
 }
 // console.log(hungryDog(15));
+
+function puppy(month,weight){
+  if (month  <= 4){
+    return weight * 0.01 
+  }else if(month < 7){
+    return weight * 0.05
+  }else if(month < 12){
+    return weight * 0.04
+  }
+    
+}
+
+// console.log(puppy(10,10));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
